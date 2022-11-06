@@ -1,4 +1,4 @@
-function Card({width, height, borderRadius, frontContent, backContent, offset}) {
+export default function Card({width, height, borderRadius, frontContent, backContent, offset}) {
   const [isClicked, setIsClicked] = React.useState(false);
   const styles = {
     scene: {height: height, width: width, perspective: '400px'},
